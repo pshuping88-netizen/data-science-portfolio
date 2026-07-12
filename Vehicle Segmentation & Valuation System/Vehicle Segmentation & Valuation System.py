@@ -1,5 +1,7 @@
-#Vehicle Valuation System
+#Vehicle Segmentation & Valuation System
 #Import Modules
+from pathlib import Path
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -21,7 +23,9 @@ from sklearn.ensemble import RandomForestRegressor
 
 #Load Data
 #Store data as dataframe from file
-car_pricing_data = pd.read_csv("car_pricing_datasets.csv")
+base_directory = Path(__file__).resolve().parent
+file_path = base_directory / "data" / "car_pricing_datasets.csv"
+car_pricing_data = pd.read_csv(file_path)
 
 #Inspect Data
 #Read and check data
@@ -331,12 +335,21 @@ print(f"Random Forest MAE: R{mae_rf:,.2f}")
 print(f"Random Forest R2: {r2_rf:,.2f}")
 
 #Check Feature Importance
-importance_df = pd.DataFrame({
+feat_importance_df = pd.DataFrame({
     "feature": X.columns,
     "importance": random_forest_model.feature_importances_
 }).sort_values("importance", ascending=False)
 
-print(importance_df.head(10))
+print(feat_importance_df.head(10))
+
+#Graph (Feature Importance)
+top10_feats = feat_importance_df.head(10)
+
+plt.figure(figsize=(10,4))
+plt.barh(top10_feats["feature"], top10_feats["importance"])
+plt.title("Top 10 Feature Importances")
+plt.xlabel("Importance")
+plt.show()
 
 #Error Analysis
 rf_results = pd.DataFrame({
@@ -373,16 +386,25 @@ plt.ylabel("Absolute Error")
 plt.grid(True)
 plt.show()
 
-#Quartile MAE analysis
+#Price Quartile MAE Analysis
 rf_results["price_group"] = pd.qcut(
     rf_results["actual_price"],
     q=4,
-    labels=["Q1 Cheapest","Q2","Q3","Q4 Most Expensive"])
+    labels=["Q1","Q2","Q3","Q4"])
 
 quartile_mae = rf_results.groupby("price_group")["abs_error"].mean()
 print(quartile_mae)
 
 print(rf_results.sort_values("abs_error",ascending=False).head(10))
+
+#Graph (Price Quartile MAE)
+plt.figure(figsize=(10,6))
+quartile_mae.plot(kind="bar")
+plt.title("Average Prediction Error by Price Quartile")
+plt.ylabel("Mean Absolute Error")
+plt.xlabel("Price Quartile (Q1 - Cheapest & Q4 - Most Expensive)")
+plt.grid(axis="y")
+plt.show()
 
 #Valuation Function (Random Forest)
 def vehicle_valuation(vehicle_features):
