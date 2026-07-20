@@ -686,5 +686,61 @@
         "Date": "2026-07-12",
         "Category": "Protein",
         "Store": "Spar"
+    },
+    {
+        "Item Name": "Milk",
+        "Price": 20.0,
+        "Quantity": 1,
+        "Date": "2026-07-20",
+        "Category": "Drinks",
+        "Store": "Other"
+    },
+    {
+        "Item Name": "Spar Tomato Sauce",
+        "Price": 34.99,
+        "Quantity": 1,
+        "Date": "2026-07-20",
+        "Category": "Snacks",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Garlic",
+        "Price": 11.16,
+        "Quantity": 1,
+        "Date": "2026-07-20",
+        "Category": "Produce",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Onion Sock",
+        "Price": 39.99,
+        "Quantity": 1,
+        "Date": "2026-07-20",
+        "Category": "Produce",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Red Pepper",
+        "Price": 35.7,
+        "Quantity": 1,
+        "Date": "2026-07-20",
+        "Category": "Produce",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Green Pepper",
+        "Price": 19.52,
+        "Quantity": 1,
+        "Date": "2026-07-20",
+        "Category": "Produce",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Hamburger Roll",
+        "Price": 3.2,
+        "Quantity": 8,
+        "Date": "2026-07-20",
+        "Category": "Staple",
+        "Store": "Spar"
     }
 ]
