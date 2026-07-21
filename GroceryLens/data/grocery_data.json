@@ -742,5 +742,45 @@
         "Date": "2026-07-20",
         "Category": "Staple",
         "Store": "Spar"
+    },
+    {
+        "Item Name": "Chicken 8Pc Pack",
+        "Price": 76.95,
+        "Quantity": 1,
+        "Date": "2026-07-21",
+        "Category": "Protein",
+        "Store": "Checkers"
+    },
+    {
+        "Item Name": "Chicken Fillets 6Pc Pack",
+        "Price": 70.71,
+        "Quantity": 1,
+        "Date": "2026-07-21",
+        "Category": "Protein",
+        "Store": "Checkers"
+    },
+    {
+        "Item Name": "Wors",
+        "Price": 16.87,
+        "Quantity": 1,
+        "Date": "2026-07-21",
+        "Category": "Protein",
+        "Store": "Checkers"
+    },
+    {
+        "Item Name": "Beef Mince",
+        "Price": 80.07,
+        "Quantity": 1,
+        "Date": "2026-07-21",
+        "Category": "Protein",
+        "Store": "Checkers"
+    },
+    {
+        "Item Name": "House Brand Frozen Veg",
+        "Price": 39.99,
+        "Quantity": 1,
+        "Date": "2026-07-21",
+        "Category": "Produce",
+        "Store": "Checkers"
     }
 ]
