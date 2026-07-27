@@ -2,13 +2,13 @@
 
 ## Overview
 End-to-end vehicle valuation system that estimates vehicle prices using machine learning. The system transforms raw vehicle data into price predictions through data preparation, feature engineering, market segmentation, model training, and error analysis.
-
+___
 ## Business Problem
 Mutuka Automotive needed a faster and more consistent way to estimate vehicle values. The goal was to develop a data driven system capable of providing reliable vehicle price estimates while identifying cases requiring manual review.
 
 ## Dataset
 The dataset consists of vehicle specifications and corresponding vehicle prices. It includes features related to engine performance, fuel consumption, vehicle size, drivetrain and body type. Vehicle price was used as the target variable for prediction.
-
+___
 ## Methodology
 
 ### Exploratory Data Analysis (EDA)
@@ -72,7 +72,7 @@ Three machine learning models were trained and compared:
 
 An 80/20 train-test split was used for evaluation.
 Vehicle prices were predicted using the log-transformed target variable and converted back to market prices for reporting.
-
+___
 ## Results
 Random Forest achieved the best performance and was selected as the final valuation model.
 | Model             | MAE           |   R²   |
@@ -88,7 +88,7 @@ The final model was able to capture most pricing patterns across the dataset, al
 ### Feature Importance
 Fuel efficiency and engine size were the strongest predictors of vehicle value in the dataset.
 ![Feature Importance](images/feature_importance.png)
-
+___
 ## Error Analysis
 Model performance was analysed to understand where prediction errors occurred and identify situations where automated valuations may be unreliable.
 ### Error by Price Segment
@@ -116,7 +116,7 @@ The model underestimated the vehicle's value by more than R500,000.
 This example highlights one of the limitations of the model: premium vehicles are uncommon in the training data and often possess unique characteristics that are difficult for the model to generalise. Rather than relying solely on automated predictions, vehicles identified as high-value are flagged for manual review through the business rules implemented earlier in the valuation process.
 
 This shows how machine learning predictions and business rules can work together to improve decision quality.
-
+___
 ## Business Impact
 
 The system demonstrates how machine learning can support vehicle valuation by automating estimates for standard vehicles while identifying cases that require manual review.
@@ -133,7 +133,7 @@ This approach helps to:
 - K-Means clustering successfully separated vehicles into distinct market segments.
 - Prediction accuracy decreased as vehicle prices increased, particularly for premium vehicles.
 - Machine learning can support valuation decisions but should not fully replace human review.
-
+___
 ## Future Improvements
 - Hyperparameter tuning to improve model performance.
 - Expand the dataset, particularly with premium vehicles, to improve valuation accuracy for high-value cars.
