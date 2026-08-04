@@ -782,5 +782,93 @@
         "Date": "2026-07-21",
         "Category": "Produce",
         "Store": "Checkers"
+    },
+    {
+        "Item Name": "Maize Meal",
+        "Price": 74.99,
+        "Quantity": 1,
+        "Date": "2026-08-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Rice",
+        "Price": 104.99,
+        "Quantity": 1,
+        "Date": "2026-08-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "White Sugar",
+        "Price": 69.99,
+        "Quantity": 1,
+        "Date": "2026-08-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Nescafe Coffee",
+        "Price": 109.99,
+        "Quantity": 1,
+        "Date": "2026-08-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "1L Milk",
+        "Price": 18.99,
+        "Quantity": 1,
+        "Date": "2026-08-04",
+        "Category": "Drinks",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Canned Pilchards",
+        "Price": 25.99,
+        "Quantity": 2,
+        "Date": "2026-08-04",
+        "Category": "Protein",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Bbq Sauce",
+        "Price": 38.99,
+        "Quantity": 1,
+        "Date": "2026-08-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Eggs",
+        "Price": 23.99,
+        "Quantity": 1,
+        "Date": "2026-08-04",
+        "Category": "Protein",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Bbq Spice",
+        "Price": 19.99,
+        "Quantity": 1,
+        "Date": "2026-08-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Seven Colours Grill Spice",
+        "Price": 14.99,
+        "Quantity": 1,
+        "Date": "2026-08-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "White Bread",
+        "Price": 20.99,
+        "Quantity": 1,
+        "Date": "2026-08-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
     }
 ]

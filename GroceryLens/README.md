@@ -1,4 +1,4 @@
-# GroceryLens
+# GroceryLens - Grocery Budget & Analytics CLI
 
 ## Overview
 GroceryLens is a Python command-line application for tracking grocery purchases and monthly budgets. It stores purchase data in JSON files and generates reports that summarize spending patterns, budget usage, category breakdowns, store breakdowns, and month-end projections.
@@ -178,12 +178,19 @@ python main.py
 
 ___
 ## Future Improvements
-Planned improvements include:
+GroceryLens is actively being developed. 
+Planned enhancements include:
 
+### Next Milestones
+- Grocery trip tracking to group purchases by shopping session
+- Receipt scanning with OCR for faster purchase entry
+- Automatic product categorization using text classification
+- Price history tracking for recurring grocery items
+
+### Planned Enhancements
 - SQL database integration
 - Historical report archiving
 - Shopping behaviour metrics
 - Better visual reporting
 - Streamlit dashboard
 - More advanced forecasting
-
