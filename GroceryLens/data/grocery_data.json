@@ -870,5 +870,101 @@
         "Date": "2026-08-04",
         "Category": "Staple",
         "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Amazi",
+        "Price": 22.99,
+        "Quantity": 1,
+        "Date": "2026-08-06",
+        "Category": "Drinks",
+        "Store": "Checkers"
+    },
+    {
+        "Item Name": "Toilet Paper",
+        "Price": 36.0,
+        "Quantity": 1,
+        "Date": "2026-08-06",
+        "Category": "Household",
+        "Store": "Other"
+    },
+    {
+        "Item Name": "Darling Maas",
+        "Price": 16.99,
+        "Quantity": 1,
+        "Date": "2026-08-08",
+        "Category": "Drinks",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Spar Maas",
+        "Price": 14.99,
+        "Quantity": 1,
+        "Date": "2026-08-08",
+        "Category": "Drinks",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Green Pepper Pack",
+        "Price": 23.99,
+        "Quantity": 1,
+        "Date": "2026-08-10",
+        "Category": "Produce",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Mixed Herbs",
+        "Price": 17.99,
+        "Quantity": 1,
+        "Date": "2026-08-10",
+        "Category": "Produce",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Cooking Oil",
+        "Price": 41.99,
+        "Quantity": 1,
+        "Date": "2026-08-10",
+        "Category": "Staple",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Onion Sock",
+        "Price": 39.99,
+        "Quantity": 1,
+        "Date": "2026-08-10",
+        "Category": "Produce",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Milk",
+        "Price": 18.99,
+        "Quantity": 1,
+        "Date": "2026-08-10",
+        "Category": "Drinks",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Braai Wors",
+        "Price": 29.12,
+        "Quantity": 1,
+        "Date": "2026-08-10",
+        "Category": "Protein",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Chicken Fillets",
+        "Price": 74.97,
+        "Quantity": 1,
+        "Date": "2026-08-10",
+        "Category": "Protein",
+        "Store": "Spar"
+    },
+    {
+        "Item Name": "Chicken Drum & Thigh",
+        "Price": 75.83,
+        "Quantity": 1,
+        "Date": "2026-08-10",
+        "Category": "Protein",
+        "Store": "Spar"
     }
 ]
