@@ -990,5 +990,77 @@
         "Date": "2026-08-17",
         "Category": "Drinks",
         "Store": "Spar"
+    },
+    {
+        "Item Name": "Full Cream Milk",
+        "Price": 18.99,
+        "Quantity": 1,
+        "Date": "2026-09-04",
+        "Category": "Drinks",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Pnp Tomato Sauce",
+        "Price": 34.99,
+        "Quantity": 1,
+        "Date": "2026-09-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Rice",
+        "Price": 39.99,
+        "Quantity": 1,
+        "Date": "2026-09-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Pilchards In Tom Sauce",
+        "Price": 25.99,
+        "Quantity": 2,
+        "Date": "2026-09-04",
+        "Category": "Protein",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Beef Mince",
+        "Price": 44.95,
+        "Quantity": 1,
+        "Date": "2026-09-04",
+        "Category": "Protein",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Onion Pack 4",
+        "Price": 21.44,
+        "Quantity": 1,
+        "Date": "2026-09-04",
+        "Category": "Produce",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Garlic",
+        "Price": 34.99,
+        "Quantity": 1,
+        "Date": "2026-09-04",
+        "Category": "Produce",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Bread",
+        "Price": 20.99,
+        "Quantity": 1,
+        "Date": "2026-09-04",
+        "Category": "Staple",
+        "Store": "PicknPay"
+    },
+    {
+        "Item Name": "Eggs",
+        "Price": 64.99,
+        "Quantity": 1,
+        "Date": "2026-09-04",
+        "Category": "Protein",
+        "Store": "PicknPay"
     }
 ]
